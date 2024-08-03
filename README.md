@@ -7,13 +7,14 @@ Discover a new way to connect with your reading material through BookNotes. Our 
 ## Firstly do this after cloning the project
 
 * Check the details(listed below) and fill them according to your database in (index.js)file.
+  
 const db = new pg.Client({
 
-    user: "postgres" /*default on installing postgres SQL*/,
+    user: "postgres",
     host: "localhost",
-    database: "book_notes"  /*database name*/,
-    password: "" /*password of your database*/,
-    port: 5432  /*port on which your database run*/,
+    database: "book_notes" ,
+    password: "" ,
+    port: 5432,
   
   });
 
