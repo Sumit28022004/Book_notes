@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>My Reading Reflections</h1>
+    <a href="/new">&#x2b</a>
+    <hr>
+    <% items.forEach((item)=>{%>
+        <div>
+             <img src="<%= item.url%>" alt="image not found">
+             <%const author = item.author.toUpperCase();%>
+             <%const title = item.title.toUpperCase();%>
+             <h2><%=title%> - BY <%= author %></h2>
+             <small>ISBN: <%= item.isbn %></small>
+             <p><%= item.summary %></p>
+        
+        </div>
+    <%}) %>
+    
+</body>
+</html>

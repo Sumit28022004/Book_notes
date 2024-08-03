@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 2.5rem;
+    margin:2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    font-size: 2rem;
+    text-decoration: none;
+    color:azure;
+    background-color: rgb(189, 100, 199);
+    width:3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    height:2.5rem;
+    border-radius: 3px;
+}
+a:hover{
+    scale:calc(1.5);
+}
+img{
+    height: 200px;
+    width:150px;
+    float: left;
+    background-color: aqua;
+    margin:1rem;
+}
+
+div{
+    padding:1rem;
+    width:80%;
+    margin-bottom: 6rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 1rem;
+}
+
+div h2{
+    font-size: 2.5rem;
+    margin:12px 0;
+}
+
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:12px;
+}
+small{
+    font-size: 15px;
+}
