@@ -14,6 +14,7 @@ const db = new pg.Client({
     database: "book_notes",/*database name*/
     password: "",/*password of your database*/
     port: 5432,/*port on which your database run*/
+  
   });
 
 * create table ->
